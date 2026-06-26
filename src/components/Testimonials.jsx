@@ -29,7 +29,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="py-32 border-t border-[rgba(241,246,244,0.06)]">
+    <section id="testimonials" className="py-32 border-t border-[rgba(241,246,244,0.06)]">
       <div className="max-w-[1280px] mx-auto px-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

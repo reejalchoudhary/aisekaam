@@ -18,7 +18,7 @@ const widgets = [
 
 export function PlatformPreview() {
   return (
-    <section className="py-32">
+    <section id="platform" className="py-32 bg-[#172B36]">
       <div className="max-w-[1280px] mx-auto px-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export function PlatformPreview() {
               <div className="w-64 bg-[rgba(23,43,54,0.6)] border-r border-[rgba(241,246,244,0.06)] p-6">
 
                 <div className="font-['JetBrains_Mono'] text-[18px] font-bold text-[#F1F6F4] mb-8">
-                  AutomateAI
+                  AISeKaam
                 </div>
 
                 <nav className="space-y-2">

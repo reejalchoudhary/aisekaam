@@ -6,7 +6,7 @@ const faqs = [
   {
     question: "How does the 14-day free trial work?",
     answer:
-      "Start using AutomateAI immediately with full access to all features. No credit card required. After 14 days, choose a plan that fits your needs or continue with our free tier.",
+      "Start using AISeKaam immediately with full access to all features. No credit card required. After 14 days, choose a plan that fits your needs or continue with our free tier.",
   },
   {
     question: "Can I upgrade or downgrade my plan anytime?",
@@ -83,7 +83,7 @@ function FAQItem({ faq, index }) {
 
 export function FAQ() {
   return (
-    <section className="py-32">
+    <section id="faq" className="py-32">
       <div className="max-w-[900px] mx-auto px-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ export function FAQ() {
           </h2>
 
           <p className="text-[18px] text-[#D9E8E2]">
-            Everything you need to know about AutomateAI
+            Everything you need to know about AISeKaam
           </p>
         </motion.div>
 

@@ -42,7 +42,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
           <div className="lg:col-span-2">
             <div className="font-['JetBrains_Mono'] text-[24px] font-bold text-[#F1F6F4] mb-4">
-              AutomateAI
+              AISeKaam
             </div>
 
             <p className="text-[14px] text-[#D9E8E2] mb-6 leading-[1.6]">
@@ -99,7 +99,7 @@ export function Footer() {
         <div className="pt-8 border-t border-[rgba(241,246,244,0.06)]">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-[14px] text-[#D9E8E2]">
-              © 2026 AutomateAI. All rights reserved.
+              © 2026 AISeKaam. All rights reserved.
             </div>
 
             <div className="flex items-center gap-4">
